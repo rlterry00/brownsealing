@@ -15,13 +15,15 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/node_modules/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/rlgrid.css">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
 </head>
 
 <body>
-  <div>
+  <div class="wrapper">
     <div class="topnav" id="myTopnav">
       <a class="active" href="#home"><img src="favicon-32x32.png" alt=""></a>
       <a href="#about">About Us</a>
@@ -36,46 +38,69 @@
         
       </header>
         <div id="about">
+          <div class="row">
+          <div class="col-6">
+
           <h1>About Us</h1>
           
             <p>Brown's Sealing and Striping has been in business since 1994, proudly serving Roanoke, VA and surrounding areas. We've gained the experience and knowledge to complete any sealcoat job with complete satisfaction. Residential, Commercial, or Municipal.</p>
             <p>Services include seal coating, crack repair, joint repair, oil treatment, sunken asphalt repair, and line striping. Residential sealcoating (driveway) and black-top maintenance, as well as commercial sealcoating and asphalt repair are provided by your local SealMaster® dealer.</p>
+          </div>
+          <div class="col-6">
+            <img id="bbb" src="assets/images/bbb.png">
+          </div>  
+        </div>
         </div>
         <div id="overview">
+          <div class="row">
+            <div class="col-12">
           <h1>Sealcoat Overview</h1>
             
             <p>Sealcoat is applied to asphalt to seal the pavement surface and protect it from the degradation caused by sunlight, oxidation, and water, and to act as a shield against drippings such as oil and gasoline. Sealcoat also beautifies the pavement by providing a smooth, black, even surface ideal for painting lines and sweeping. On older pavements, sealcoating can replace fine particles lost from the asphalt surface while sealing small cracks before they become larger, protecting the supporting base material from water intrusion. While sealcoats have historically been designed for off-highway use where there are low traffic speeds, newer, more complex blends are being used on roads, highways, and runways.</p>
+            </div>
+            </div>
         </div>
-        <div>
+        <div id="specs">
+        <div class="row">
+          <div class="col-4">
           <h2>Beautification</h2>
             
             <p>Sealcoat can put a smile on your pavement by providing a smoother, blacker, a more even surface that gives a good impression to prospective tenants, home buyers, customers, and the general public.</p>
-
+          </div>
+          <div class="col-4">
           <h2>Preservation</h2>
 
             <p>When used as part of a preventive maintenance plan, sealcoating dramatically extends the life of asphalt pavement – saving you money over the long-term.</p>
 
             <p>Sealcoats typically last between 3-5 years, depending on the quality of the material used and the millage (thickness) of the actual application.  Sealcoats have a shorter life span than heavier-duty treatments like slurry sealand micro surfacing, but they are also less expensive.</p>
         </div>
-        <div>
+        <div class="col-4">
           <h1>Considerations</h1>
 
             <p>Sealcoats typically last between 3-5 years, depending on the quality of the material used and the millage (thickness) of the actual application. Sealcoats have a shorter life span than heavier-duty treatments like slurry sealand micro surfacing.</p>
         </div>
-        <div>
+        </div>
+      </div>
+      <div id="specs2">
+        <div class="row">
+        <div class="col-6">
           <h1>What Is Sealcoat?</h1>
 
             <p>Sealcoat is generally a mixture of emulsified asphalt, water, mineral fillers, and various other components. Premium grade sealcoat materials use select, highly stable asphalt binders with cross-linking chemistry and premium, crushed-graded aggregate particles.</p>
         </div>
-        <div>    
+        <div class="col-6">    
           <h1>Applying Sealcoat</h1>
 
             <p>Sealcoats are applied by rubber squeegee, broom, or mechanical spray. We offer a two coat application using a squeegee application on the first coat and a spray application on the second. This allows the mechanical down pressure of a squeegee to fill cracks, displace dust particles and to insure adherence while the second spray coat provides an even filling of voids and a smooth, uniform finish.</p>
         </div>
-        <div id="contact">
-          <h1>Contact</h1>
         </div>
-        <div>
+        </div>
+        <div id="contact">
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+          <h1>Contact</h1>
+                <div>
            <form class="email" action="assets/php/mailer.php" method="post">
                                 <p>Name:</p>
                                 <input type="text" name="name" />
@@ -88,6 +113,10 @@
                                 <div class="g-recaptcha" data-sitekey="6Lc0jTUUAAAAAIG_erwBZcwmc8UqJ96GAClADpBk"></div>
                                 <input class="send" type="submit" value="Send">
                             </form>
+        </div>
+        </div>
+        <div class="col-4"></div>
+        </div>
         </div>
 <footer>
   <h2>Copyright ©2018 Brown's Sealing</h2>
