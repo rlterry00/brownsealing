@@ -4,6 +4,7 @@ body {
   padding: 0;
   position: relative;
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bolder;
 
 }
 
@@ -16,8 +17,7 @@ h1 {
 p {
   font-size: 20px;
   color: white;
-  font-weight: 300;
-}
+  }
 
 h2 {
   font-size: 30px;
@@ -111,8 +111,10 @@ h2 {
 
   }
   #bbb {
-    width: 100%
     
+   position: relative;
+    top: 95.0468px;
+    max-width: 100%;
   }
 
   footer {
