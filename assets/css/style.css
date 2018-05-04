@@ -176,6 +176,20 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
     float: right;
     display: block;
   }
+
+  #headlogo {
+     max-width: 100%;
+    /*max-height: 100%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #bbb {
+  position: relative;
+    top: 0;
+  width: 100%;
+}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -195,22 +209,7 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
 
 @media only screen 
 and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) { 
-
-#headlogo {
-     max-width: 100%;
-    /*max-height: 100%;*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-#bbb {
-  position: relative;
-    top: 0;
-  width: 100%;
-}
+and (max-device-width : 667px)  { 
 
 
  }
