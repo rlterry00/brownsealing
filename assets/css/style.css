@@ -219,7 +219,7 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
   .titlehead {
     position: relative;
     top: 0;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #headlogo {
