@@ -3,24 +3,26 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  font-family: 'IBM Plex Sans', sans-serif;
   
-}
+  }
 
 h1 {
   font-size: 40px;
-  color: white;
+  color: black;
+  font-family: 'Faster One', cursive;
 
 }
 
 p {
   font-size: 20px;
-  color: white;
+  color: black;
+  font-family: 'Share', cursive;
   }
 
 h2 {
   font-size: 30px;
-  color: white;
+  color: black;
+  font-family: 'Faster One', cursive;
 }
 
 input[type=text] {
@@ -32,6 +34,7 @@ input[type=text] {
   background-color: black;
   color: white;
   font-size: 18px;
+  font-family: 'Share', cursive;
 }
 
 textarea {
@@ -40,6 +43,7 @@ textarea {
   height: 100px;
   border-radius: 10px;
   font-size: 16px;
+  font-family: 'Share', cursive;
 }
 
 input[type=submit] {
@@ -51,6 +55,15 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
   border-radius: 10px;
   font-size: 15px;
   margin-top: 10px;
+  font-family: 'Faster One', cursive;
+}
+
+.tshadow {
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
 
 #phone {
@@ -122,6 +135,9 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
 
 .header {
   background: url(../images/Pothole.jpg) no-repeat fixed;
+  /*background-size: 100%;*/
+  /*background: tomato;*/
+  
     /* Set rules to fill background */
   max-width: 100%;
   max-height: 100%;  
@@ -134,17 +150,40 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
   top: 0;
   left: 0;
 
-  /*margin-bottom: -25px;*/
+
+
+
+  
+
+  
 
     }
 
+  .titlehead {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Faster One', cursive;
+    position: relative;
+    top: 100px;
+  }
+
   #headlogo {
-    max-width: 56%;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
+    border: solid black 4px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 5px;
+    
+    box-shadow: 10px 10px 10px black;
+    background: orange;
 
   }
+
+  
   #bbb {
     
    position: relative;
@@ -175,6 +214,12 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+  .titlehead {
+    position: relative;
+    top: 0;
+    font-size: 50px;
   }
 
   #headlogo {
