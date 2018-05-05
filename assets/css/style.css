@@ -4,6 +4,7 @@ body {
   padding: 0;
   position: relative;
   max-width: 100%
+
   }
 
 h1 {
@@ -14,9 +15,11 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   font-family: 'Share', cursive;
+  margin-left: 10%;
+  margin-right: 10%;
   }
 
 h2 {
@@ -57,6 +60,12 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
   margin-top: 10px;
   font-family: 'Faster One', cursive;
 }
+
+#quote {
+  font-size: 100px;
+  text-align: center;
+}
+
 
 .tshadow {
   text-shadow:
@@ -183,12 +192,41 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
 
   }
 
+  .popout {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px;
+
+
+  }
+  
+  #roanoketimes {
+    position: relative;
+    /*left: 10px;
+*/    max-width: 90%;
+    /*border: solid 1px black;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  #facebook {
+    position: relative;
+    top: 60px;
+    max-width: 100%;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    text-align: center;
+    /*border-radius: 10px;*/
+  }
   
   #bbb {
     
    position: relative;
-    top: 95.0468px;
+    /*top: 60px;*/
     max-width: 100%;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    text-align: center;
+    /*border-radius: 10px;*/
   }
 
   footer {
@@ -235,6 +273,18 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
     top: 0;
   width: 100%;
 }
+  #facebook {
+    position: relative;
+    top: -5px;
+    max-width: 50%;
+    
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+      }
+  #quote {
+    font-size: 50px;
+  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
