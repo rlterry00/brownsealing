@@ -66,6 +66,13 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
   text-align: center;
 }
 
+#mainlogo {
+  max-width: 100%;
+}
+
+.head {
+  text-align: center;
+}
 
 .tshadow {
   text-shadow:
@@ -200,7 +207,7 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
 
   }
   
-  #roanoketimes {
+  .roanoketimes {
     position: relative;
     /*left: 10px;
 */    max-width: 90%;
@@ -212,7 +219,7 @@ background: radial-gradient(circle, rgba(209,212,231,1) 0%, rgba(20,20,20,1) 100
 
   #facebook {
     position: relative;
-    top: 60px;
+    left: 200px;
     max-width: 100%;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     text-align: center;
