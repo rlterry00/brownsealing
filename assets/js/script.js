@@ -12,5 +12,14 @@ function multiplyBy()
 {
         num1 = document.getElementById("length").value;
         num2 = document.getElementById("width").value;
-        document.getElementById("result").innerHTML = num1 * num2 * .35;
+        var num3 = .35;
+        var esitmate = num1 * num2 * num3;
+        document.getElementById("result").innerHTML = esitmate.toFixed(2);
+
+        if (isNaN(num1) || isNaN(num2)) 
+  {
+  	document.getElementById("result").innerHTML = 0.00;
+    alert("Use valid numbers");
+    return false;
+  }
 }
