@@ -206,9 +206,9 @@
               <p id="disclaim">**This is a starter estimate calculator for an idea of where prices start for your job.  This does not include crack filling, labor, and other factors. Input the length and width of the area that needs sealing to nearest whole number. Use our contact form or call us with your starter estimate for more details on the pricing**</p>
              
                                 <p>Length:</p>
-                                <input type="text" name="length" id="length" oninput="multiplyBy()" />
+                                <input type="text" name="length" id="length" placeholder="0 ft" oninput="multiplyBy()" />
                                 <p>Width:</p>
-                                <input type="text" name="width" id="width" oninput="multiplyBy()" />
+                                <input type="text" name="width" id="width" placeholder="0 ft" oninput="multiplyBy()" />
                             
                            
                             <h2>Estimate: $<span id="result"></span></h2>
@@ -219,15 +219,15 @@
                 <div>
            <form class="email" action="assets/php/mailer.php" method="post">
                                 <p>Name:</p>
-                                <input type="text" name="name" id="name" required />
+                                <input type="text" name="name" id="name" placeholder="Your Name" required />
                                 <p>E-mail:</p>
-                                <input type="text" name="email" id="email" required />
+                                <input type="text" name="email" id="email" placeholder="Valid Email" required />
                                 <p>Subject:</p>
                                 <input type="text" name="subject" id="subject" />
                                 <p>Message:</p>
                                 <textarea name="message" id="message" required></textarea>
                                 
-                                <input class="send" type="submit" value="Send">
+                                <input class="send" type="submit" value="Send" onclick="checkEmail()">
                             </form>
         </div>
         </div>
