@@ -7,3 +7,10 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+function multiplyBy()
+{
+        num1 = document.getElementById("length").value;
+        num2 = document.getElementById("width").value;
+        document.getElementById("result").innerHTML = num1 * num2 * .35;
+}

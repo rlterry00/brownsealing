@@ -14,10 +14,11 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="author" content="R.L. Terry">
     <meta name="description" content="">    
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/rlgrid.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Faster+One|Share" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
@@ -29,19 +30,20 @@
       <a class="active" href="#home"><img src="favicon-32x32.png" alt=""></a>
       <a href="#about">About Us</a>
       <a href="#overview">Sealing Overview</a>
+      <a href="#contact_area">Estimate</a>
       <a href="#contact">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
       <header>
         <div id="home" class="header">
           <div class="row">
-            <div class="col-4 titlehead">
+            <div class="col-4 titlehead animated fadeInLeftBig">
               <h3>Brown's</h3>
             </div>
-          <div class="col-4">
+          <div class="col-4 animated flip">
           <img id="headlogo" src="assets/images/logonew.png" alt="">
           </div>
-          <div class="col-4 titlehead">
+          <div class="col-4 titlehead animated fadeInRightBig">
           <h3>Sealing</h3>
           </div>
           </div>
@@ -56,7 +58,8 @@
           
             <p>Brown's Sealing and Striping has been in business since 1994, proudly serving Roanoke, VA and surrounding areas. We've gained the experience and knowledge to complete any sealcoat job with complete satisfaction. Residential, Commercial, or Municipal.</p>
             <p>Services include seal coating, crack repair, joint repair, oil treatment, sunken asphalt repair, and line striping. Residential sealcoating (driveway) and black-top maintenance, as well as commercial sealcoating and asphalt repair are provided by your local SealMaster® dealer.</p>
-          </div>
+
+          
 
           <div class="row">
             <div class="col-4"></div>
@@ -78,6 +81,9 @@
             
           </div>  
           </div>
+          </div>
+          </div>
+          
             <div class="row">
             <div class="col-6">
                
@@ -88,6 +94,7 @@
               <a href="https://www.facebook.com/brown.sealing"><img id="facebook" src="assets/images/facebook.png"></a>
               </div>
               </div>
+              <div id="about2">
           <div class="row">
             
             <div class="col-12">
@@ -104,16 +111,22 @@
             </div>
           
         
+        
+        
         </div>
         <div id="overview">
           <div class="row">
             <div class="col-12 popout">
               <div class="popout">
           <h1>Sealcoat Overview</h1>
+
+          <div class="pic" id="pic">
+            <img class="roanoketimes" src="assets/images/overview 2.JPG">
+            </div>
             
             <p>Sealcoat is applied to asphalt to seal the pavement surface and protect it from the degradation caused by sunlight, oxidation, and water, and to act as a shield against drippings such as oil and gasoline. Sealcoat also beautifies the pavement by providing a smooth, black, even surface ideal for painting lines and sweeping. On older pavements, sealcoating can replace fine particles lost from the asphalt surface while sealing small cracks before they become larger, protecting the supporting base material from water intrusion. While sealcoats have historically been designed for off-highway use where there are low traffic speeds, newer, more complex blends are being used on roads, highways, and runways.</p>
           </div>
-            <img class="roanoketimes" src="assets/images/overview.jpg">
+          
             </div>
             </div>
         </div>
@@ -122,6 +135,11 @@
           <div class="col-4">
             <div class="popout">
           <h2>Beautification</h2>
+
+          <div class="pic">
+            <img class="roanoketimes" src="assets/images/before and after.jpg">
+            </div>
+
             
             <p>Sealcoat can put a smile on your pavement by providing a smoother, blacker, a more even surface that gives a good impression to prospective tenants, home buyers, customers, and the general public.</p>
             </div>
@@ -129,6 +147,11 @@
           <div class="col-4">
             <div class="popout">
           <h2>Preservation</h2>
+
+          <div class="pic">
+            <img class="roanoketimes" src="assets/images/before and after2.jpg">
+            </div>
+
 
             <p>When used as part of a preventive maintenance plan, sealcoating dramatically extends the life of asphalt pavement – saving you money over the long-term.</p>
 
@@ -138,6 +161,11 @@
         <div class="col-4">
           <div class="popout">
           <h2>Considerations</h2>
+
+          <div class="pic">
+            <img class="roanoketimes" src="assets/images/house.jpg">
+            </div>
+
 
             <p>Sealcoats typically last between 3-5 years, depending on the quality of the material used and the millage (thickness) of the actual application. Sealcoats have a shorter life span than heavier-duty treatments like slurry sealand micro surfacing.</p>
             </div>
@@ -150,6 +178,10 @@
           <div class="popout">
           <h1>What Is Sealcoat?</h1>
 
+          <div class="pic">
+            <img class="roanoketimes" src="assets/images/parking-lot-striping-las-vegas.jpg">
+            </div>
+
             <p>Sealcoat is generally a mixture of emulsified asphalt, water, mineral fillers, and various other components. Premium grade sealcoat materials use select, highly stable asphalt binders with cross-linking chemistry and premium, crushed-graded aggregate particles.</p>
             </div>
         </div>
@@ -158,15 +190,31 @@
         <div class="popout"> 
           <h1>Applying Sealcoat</h1>
 
+          <div class="pic">
+            <img class="roanoketimes" src="assets/images/overview.jpg">
+            </div>
+
             <p>Sealcoats are applied by rubber squeegee, broom, or mechanical spray. We offer a two coat application using a squeegee application on the first coat and a spray application on the second. This allows the mechanical down pressure of a squeegee to fill cracks, displace dust particles and to insure adherence while the second spray coat provides an even filling of voids and a smooth, uniform finish.</p>
             </div>
         </div>
         </div>
         </div>
-        <div id="contact_area" class="tshadow">
-          <div class="row" id="contact">
-            <div class="col-4"></div>
-            <div class="col-4 contact popout">
+        <div id="contact_area">
+          <div class="row">
+            <div class="col-4 contact">
+              <h1>Starter Estimate</h1>
+              <p id="disclaim">**This is a starter estimate calculator for an idea of where prices start for your job.  This does not include crack filling, labor, and other factors. Input the length and width of the area that needs sealing to nearest whole number. Use our contact form or call us with your starter estimate for more details on the pricing**</p>
+              <form>
+                                <p>Length:</p>
+                                <input type="text" name="length" id="length" oninput="multiplyBy()" />
+                                <p>Width:</p>
+                                <input type="text" name="width" id="width" oninput="multiplyBy()" />
+                                <!-- <input class="send" type="button" onclick="multiplyBy()" Value="Multiply" /> -->
+                            </form>
+                            <h2>Estimate: $<span id="result"></span></h2>
+                            
+            </div>
+            <div class="col-4 contact popout" id="contact">
           <h1>Contact</h1>
                 <div>
            <form class="email" action="assets/php/mailer.php" method="post">
