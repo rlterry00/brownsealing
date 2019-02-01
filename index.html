@@ -22,8 +22,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/rlgrid.css">
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
@@ -31,51 +30,62 @@
 
 <body>
   <div class="wrapper">
-    <div class="topnav" id="myTopnav">
-      <a class="active" href="#home"><img src="favicon-32x32.png" alt=""></a>
-      <a href="#about">About Us</a>
-      <a href="#overview">Sealing Overview</a>
-      <a href="#contact_area">Estimate</a>
-      <a href="#contact">Contact</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
-      <header>
-        <div id="home" class="header">
-          <div class="row">
-            <div class="col-4 titlehead animated fadeInLeftBig">
-              <h3>Brown's</h3>
+      <header class="parallax popout">
+          <div class="overlay">
+          
+          <div class="topnav navwrapper" id="myTopnav">
+              <a class="active" href="#home"><img src="favicon-32x32.png" alt=""></a>
+              <a href="#about">About Us</a>
+              <a href="#overview">Sealing Overview</a>
+              <a href="#contact_area">Estimate</a>
+              <a href="#contact">Contact</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
-          <div class="col-4 animated flip">
-          <img id="headlogo" src="assets/images/logonew.png" alt="">
+          
+        <div id="home">
+            
+          <div class="row">
+              
+            <div class="col-4 titlehead animated fadeInLeftBig">
+            </div>
+          <div class="col-4 descriptionhead animated fadeInLeftBig">
+
+            <img id="headlogo" src="assets/images/BROWNSEALLOGO.png" alt="logo"/>
+            <p id="pheader">Get Your Estimate Today!</p>
+            <div>
+                <a href="#contact_area" class="myButton">Estimate Calulator</a>
+              </div>
           </div>
           <div class="col-4 titlehead animated fadeInRightBig">
-          <h3>Sealing</h3>
           </div>
           </div>
         </div>
-        
+      </div>
       </header>
         <div id="about">
           <div class="row">
           <div class="col-12 popout">
 
-          <h1>About Us</h1>
+          <h1 class="title">About Us</h1>
           
             <p>Brown's Sealing and Striping has been in business since 1994, proudly serving Roanoke, VA and surrounding areas. We've gained the experience and knowledge to complete any sealcoat job with complete satisfaction. Residential, Commercial, or Municipal.</p>
             <p>Services include seal coating, crack repair, joint repair, oil treatment, sunken asphalt repair, and line striping. Residential sealcoating (driveway) and black-top maintenance, as well as commercial sealcoating and asphalt repair are provided by your local SealMaster® dealer.</p>
-
+            <p><a href="http://www.roanoke.com/news/dan_casey/casey-local-driveway-sealing-crew-does-good-deed-for-scammed/article_0ab6248d-a09f-5737-bef4-11b224795eb3.html">Click here to check out one our customer stories at the Roanoke Times!</a></p>
           
 
           <div class="row">
-            <div class="col-4"></div>
+            <div class="col-4">
+                <img id="bbb" src="assets/images/bbb.png" alt="Better Business Bureau">
+            </div>
             <div class="col-4">
               <img id="mainlogo" src="assets/images/BROWNSEALLOGOSHORT3.png" alt="logo">
             </div>
             <div class="col-4"></div>
+            <a href="https://www.facebook.com/brown.sealing"><img id="facebook" src="assets/images/facebook.png" alt="Facebook"></a>
           </div>
 
-          <div class="row">
-            <div class="col-12" id="quote">
+          <div class="row popout" id="quote">
+            <div class="col-12 element">
               <i class="fas fa-quote-left"></i> <span>If you don’t want to get dirty, you don’t want to be in a job like this</span>
               
               <i class="fas fa-quote-right"></i>
@@ -89,36 +99,10 @@
           </div>
           </div>
           
-            <div class="row">
-            <div class="col-6">
-               
-                <img id="bbb" src="assets/images/bbb.png" alt="Better Business Bureau">
-              </div>
-             
-              <div class="col-6">
-              <a href="https://www.facebook.com/brown.sealing"><img id="facebook" src="assets/images/facebook.png" alt="Facebook"></a>
-              </div>
-              </div>
-              <div id="about2">
-          <div class="row">
-            
-            <div class="col-12">
-              <h1 class="head">Roanoke Time's Article</h1>
-              <div class="head">
-
-               <a href="http://www.roanoke.com/news/dan_casey/casey-local-driveway-sealing-crew-does-good-deed-for-scammed/article_0ab6248d-a09f-5737-bef4-11b224795eb3.html"><img class="roanoketimes" src="assets/images/roanoketimes.png" alt="Roanoke Times"></a>
-               </div>
-            </div>
-            </div>
-
-             
-             
-            </div>
-          
         
         
         
-        </div>
+        
         <div id="overview">
           <div class="row">
             <div class="col-12 popout">
@@ -247,6 +231,7 @@
         </div>
         </div>
         </div>
+      </div>
 <footer>
   <div class="row">
             <div class="col-4"></div>
